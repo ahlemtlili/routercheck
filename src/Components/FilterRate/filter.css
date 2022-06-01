@@ -1,0 +1,24 @@
+.filter{
+	display: flex;
+	flex-direction: column;
+	flex-wrap: nowrap;
+	align-items: center;
+	margin: 30px;
+}
+.searchbox {
+	width: 400px;
+	height: 50px;
+	padding: 15px;
+	border: none;
+	outline: none;
+	background: none;
+	background-color: #EEE;
+	border-radius: 8px;
+	color: #53565A;
+	font-size: 20px;
+	font-weight: 300;
+	transition: 0.4s ease-out;
+}
+.searchbox:focus {
+	box-shadow: 0px 0px 8px 3px #4484C4;
+}
